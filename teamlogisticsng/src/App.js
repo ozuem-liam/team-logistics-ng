@@ -3,11 +3,15 @@ import './App.css';
 
 // components
 import Navbar from './components/Navbar';
+import LandingPage from './components/LandingPage';
+import Company from './components/Company';
 
 function App() {
   return (
     <div className="App">
+      <LandingPage />
       <Navbar />
+      <Company />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
