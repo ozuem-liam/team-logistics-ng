@@ -83,10 +83,14 @@
 span {
   font-weight: bold;
 }
+.company-fix {
+  position: relative;
+  justify-content: center;
+}
 .company {
-  width: 100%;
+  width: 80%;
   padding: 2rem;
-  margin: 0;
+  margin-left: 10%;
 }
 .company p {
   text-align: left;
@@ -97,15 +101,19 @@ span {
   overflow: hidden;
   box-sizing: border-box;
   display: inline-block;
-  padding-left: 0;
-  animation: marquee 5s linear infinite;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
 }
 @keyframes marquee {
-  0%   { transform: translate(0, 0); }
-  100% { transform: translate(-100%, 0); }
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 aside {
-  width: 40%;
+  width: 30%;
   float: right;
   font-style: italic;
   background-color: lightgray;
@@ -113,11 +121,38 @@ aside {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-    .marquee {
-     display: none;
-    }
+  .marquee {
+    display: none;
   }
+  aside {
+    display: none;
+  }
+}
 
+/* Services Styling */
+
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col1 {
+  text-align: left;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .row1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .col1 {
+    text-align: left;
+    margin: 1rem;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

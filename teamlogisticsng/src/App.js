@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import Company from './components/Company';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <LandingPage />
       <Navbar />
       <Company />
+      <Services />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -4,7 +4,7 @@ import '../App.css';
 class Company extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container company-fix">
                 <div>
                     <img className="serv-pic" src="img/serv-pic.jpg" alt="a moving vehicle and a ship" />
                 </div>
