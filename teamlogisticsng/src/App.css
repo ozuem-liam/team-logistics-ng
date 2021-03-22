@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-bar {
+  position: absolute;
+  top: 1rem;
+  right: 0.2rem;
+}
+.bar {
+  background: #000;
+  margin: 1px;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
