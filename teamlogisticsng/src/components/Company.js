@@ -24,6 +24,11 @@ class Company extends Component {
                         We accelerate the pace of improvement through our customer's progress and seek for expansion on daily basis.  
                         </p>
                        
+                        <p>
+                        Domestic offices in Abuja, Port Harcourt, Calabar, Kano, Kaduna and Jos. <br/>
+                        <h4 className="sub-title">INTERNATIONAL OPERATIONS</h4>
+                        We are spread across the globe through our global body WORLD LOGISTICS NETWORK www.wlnetwork.com. Our local facilities in respective region are equipped with the best professional within the industries; it is indeed a global village in logistics operations.
+                        </p>
                         <span className="marquee">TEAMLOGISTICS! TEAMWORK!! SMOOTH DELIVERY!!!</span>
                    
                         

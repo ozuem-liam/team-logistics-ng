@@ -4,7 +4,7 @@ import '../App.css';
 export default class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg sticky">
                 <div className="container-fluid nav-bar">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="#">
@@ -14,11 +14,11 @@ export default class Navbar extends Component {
 
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav">
-                            <li className="active"><a href="#">Home <span className="sr-only">(current)</span></a></li>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Customer Support</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li className="active"><a className="sub-title" href="#">Home <span className="sr-only">(current)</span></a></li>
+                            <li><a className="sub-title" href="#">Company</a></li>
+                            <li><a className="sub-title" href="#">Services</a></li>
+                            <li><a className="sub-title" href="#">Customer Support</a></li>
+                            <li><a className="sub-title" href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
