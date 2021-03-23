@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import '../App.css';
 
 class LandingPage extends Component {
@@ -11,7 +12,7 @@ class LandingPage extends Component {
                         through our customer's progress and seek 
                         for expansion on daily basis.</h4>
                     <button className="btn">
-                        <a href="#">Get Started</a>
+                        <Link to="/requestform">Get Started</Link>
                     </button>
                 </div>
             </div>

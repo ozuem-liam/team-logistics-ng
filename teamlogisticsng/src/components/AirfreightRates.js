@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class AirfreightRates extends Component {
     render() {
         return (
             <div className="container">
                 <button className="btn">
-                  <a href="#">Pickup Request</a>
+                  <Link to="/requestform">Pickup Request</Link>
                 </button>
 
                 
