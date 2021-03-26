@@ -190,7 +190,7 @@ formSubmit = (e) => {
         consigneeEmail:this.state.consigneeEmail
     }
 
-    axios.post('http://localhost:3001/api/forminfo', data)
+    axios.post('https://teamlogisticsng.herokuapp.com/api/forminfo', data)
     .then(data => {
         this.setState({
             sent:true,

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import '../App.css';
 
 export default class Navbar extends Component {
@@ -15,7 +14,7 @@ export default class Navbar extends Component {
 
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav">
-                            <li className="active"><Link className="sub-title" to="/">Home <span className="sr-only">(current)</span></Link></li>
+                            <li className="active"><a className="sub-title" href="/">Home <span className="sr-only">(current)</span></a></li>
                             <li><a className="sub-title" href="#">Company</a></li>
                             <li><a className="sub-title" href="#">Services</a></li>
                             <li><a className="sub-title" href="#">Customer Support</a></li>
