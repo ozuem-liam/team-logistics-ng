@@ -25,7 +25,7 @@ app.post('/api/forminfo', async (req,res) => {
         port:465,
         auth:{
             user: 'testwilliamscode@gmail.com',
-            pass: process.env.PASSWORD
+            pass: 'Onyeka1996'
         },
         tls: {
             // do not fail on invalid certs
